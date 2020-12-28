@@ -1,0 +1,14 @@
+name: AjetCraftPlugin
+main: io.github.Ajetski.AjetCraft.AjetCraftPlugin
+version: 0.0.1-SNAPSHOT
+author: Ajetski
+commands:
+  ping:
+    description: responds with "Pong!"
+    usage: /ping
+    permission: ajet-craft.ping
+    permission-message: You don't have permision 'ajet-craft.ping'
+permissions:
+  ajet-craft.ping:
+    description: Allows a user to run /ping
+    default: true
